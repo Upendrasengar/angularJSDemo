@@ -1,0 +1,491 @@
+define([],function() {
+	return [{
+	"id": 30,
+	"name": "National League West Division",
+	"team": "Baseball"
+}, {
+	"id": 3,
+	"name": "National League East Division",
+	"team": "Baseball"
+}, {
+	"id": 20,
+	"name": "American League East Division",
+	"team": "Baseball"
+}, {
+	"id": 12,
+	"name": "American League East Division",
+	"team": "Baseball"
+}, {
+	"id": 6,
+	"name": "National League Central Division",
+	"team": "Baseball"
+}, {
+	"id": 1,
+	"name": "American League Central Division",
+	"team": "Baseball"
+}, {
+	"id": 13,
+	"name": "National League Central Division",
+	"team": "Baseball"
+}, {
+	"id": 19,
+	"name": "American League Central Division",
+	"team": "Baseball"
+}, {
+	"id": 9,
+	"name": "National League West Division",
+	"team": "Baseball"
+}, {
+	"id": 16,
+	"name": "American League Central Division",
+	"team": "Baseball"
+}, {
+	"id": 23,
+	"name": "American League West Division",
+	"team": "Baseball"
+}, {
+	"id": 21,
+	"name": "American League Central Division",
+	"team": "Baseball"
+}, {
+	"id": 22,
+	"name": "American League West Division",
+	"team": "Baseball"
+}, {
+	"id": 7,
+	"name": "National League West Division",
+	"team": "Baseball"
+}, {
+	"id": 15,
+	"name": "National League East Division",
+	"team": "Baseball"
+}, {
+	"id": 18,
+	"name": "National League Central Division",
+	"team": "Baseball"
+}, {
+	"id": 5,
+	"name": "American League Central Division",
+	"team": "Baseball"
+}, {
+	"id": 8,
+	"name": "National League East Division",
+	"team": "Baseball"
+}, {
+	"id": 2,
+	"name": "American League East Division",
+	"team": "Baseball"
+}, {
+	"id": 4,
+	"name": "American League West Division",
+	"team": "Baseball"
+}, {
+	"id": 17,
+	"name": "National League East Division",
+	"team": "Baseball"
+}, {
+	"id": 11,
+	"name": "National League Central Division",
+	"team": "Baseball"
+}, {
+	"id": 25,
+	"name": "National League West Division",
+	"team": "Baseball"
+}, {
+	"id": 14,
+	"name": "National League West Division",
+	"team": "Baseball"
+}, {
+	"id": 26,
+	"name": "American League West Division",
+	"team": "Baseball"
+}, {
+	"id": 10,
+	"name": "National League Central Division",
+	"team": "Baseball"
+}, {
+	"id": 29,
+	"name": "American League East Division",
+	"team": "Baseball"
+}, {
+	"id": 24,
+	"name": "American League West Division",
+	"team": "Baseball"
+}, {
+	"id": 27,
+	"name": "American League East Division",
+	"team": "Baseball"
+}, {
+	"id": 28,
+	"name": "National League East Division",
+	"team": "Baseball"
+}, {
+	"id": null,
+	"name": "Southeast Division",
+	"team": "Basketball"
+}, {
+	"id": null,
+	"name": "Atlantic Division",
+	"team": "Basketball"
+}, {
+	"id": null,
+	"name": "Atlantic Division",
+	"team": "Basketball"
+}, {
+	"id": null,
+	"name": "Southeast Division",
+	"team": "Basketball"
+}, {
+	"id": null,
+	"name": "Central Division",
+	"team": "Basketball"
+}, {
+	"id": null,
+	"name": "Central Division",
+	"team": "Basketball"
+}, {
+	"id": null,
+	"name": "Southwest Division",
+	"team": "Basketball"
+}, {
+	"id": null,
+	"name": "Northwest Division",
+	"team": "Basketball"
+}, {
+	"id": null,
+	"name": "Central Division",
+	"team": "Basketball"
+}, {
+	"id": null,
+	"name": "Pacific Division",
+	"team": "Basketball"
+}, {
+	"id": null,
+	"name": "Southwest Division",
+	"team": "Basketball"
+}, {
+	"id": null,
+	"name": "Central Division",
+	"team": "Basketball"
+}, {
+	"id": null,
+	"name": "Pacific Division",
+	"team": "Basketball"
+}, {
+	"id": null,
+	"name": "Pacific Division",
+	"team": "Basketball"
+}, {
+	"id": null,
+	"name": "Southwest Division",
+	"team": "Basketball"
+}, {
+	"id": null,
+	"name": "Southeast Division",
+	"team": "Basketball"
+}, {
+	"id": null,
+	"name": "Central Division",
+	"team": "Basketball"
+}, {
+	"id": null,
+	"name": "Northwest Division",
+	"team": "Basketball"
+}, {
+	"id": null,
+	"name": "Southwest Division",
+	"team": "Basketball"
+}, {
+	"id": null,
+	"name": "Atlantic Division",
+	"team": "Basketball"
+}, {
+	"id": null,
+	"name": "Northwest Division",
+	"team": "Basketball"
+}, {
+	"id": null,
+	"name": "Southeast Division",
+	"team": "Basketball"
+}, {
+	"id": null,
+	"name": "Atlantic Division",
+	"team": "Basketball"
+}, {
+	"id": null,
+	"name": "Pacific Division",
+	"team": "Basketball"
+}, {
+	"id": null,
+	"name": "Northwest Division",
+	"team": "Basketball"
+}, {
+	"id": null,
+	"name": "Pacific Division",
+	"team": "Basketball"
+}, {
+	"id": null,
+	"name": "Southwest Division",
+	"team": "Basketball"
+}, {
+	"id": null,
+	"name": "Atlantic Division",
+	"team": "Basketball"
+}, {
+	"id": null,
+	"name": "Northwest Division",
+	"team": "Basketball"
+}, {
+	"id": null,
+	"name": "Southeast Division",
+	"team": "Basketball"
+}, {
+	"id": 19,
+	"name": "NFC West Division",
+	"team": "Football"
+}, {
+	"id": 15,
+	"name": "NFC South Division",
+	"team": "Football"
+}, {
+	"id": 24,
+	"name": "AFC North Division",
+	"team": "Football"
+}, {
+	"id": 9,
+	"name": "AFC East Division",
+	"team": "Football"
+}, {
+	"id": 29,
+	"name": "NFC South Division",
+	"team": "Football"
+}, {
+	"id": 4,
+	"name": "NFC North Division",
+	"team": "Football"
+}, {
+	"id": 25,
+	"name": "AFC North Division",
+	"team": "Football"
+}, {
+	"id": 31,
+	"name": "AFC North Division",
+	"team": "Football"
+}, {
+	"id": 1,
+	"name": "NFC East Division",
+	"team": "Football"
+}, {
+	"id": 22,
+	"name": "AFC West Division",
+	"team": "Football"
+}, {
+	"id": 17,
+	"name": "NFC North Division",
+	"team": "Football"
+}, {
+	"id": 12,
+	"name": "NFC North Division",
+	"team": "Football"
+}, {
+	"id": 32,
+	"name": "AFC South Division",
+	"team": "Football"
+}, {
+	"id": 27,
+	"name": "AFC South Division",
+	"team": "Football"
+}, {
+	"id": 30,
+	"name": "AFC South Division",
+	"team": "Football"
+}, {
+	"id": 21,
+	"name": "AFC West Division",
+	"team": "Football"
+}, {
+	"id": 16,
+	"name": "NFC West Division",
+	"team": "Football"
+}, {
+	"id": 10,
+	"name": "AFC East Division",
+	"team": "Football"
+}, {
+	"id": 13,
+	"name": "NFC North Division",
+	"team": "Football"
+}, {
+	"id": 26,
+	"name": "AFC East Division",
+	"team": "Football"
+}, {
+	"id": 14,
+	"name": "NFC South Division",
+	"team": "Football"
+}, {
+	"id": 2,
+	"name": "NFC East Division",
+	"team": "Football"
+}, {
+	"id": 7,
+	"name": "AFC East Division",
+	"team": "Football"
+}, {
+	"id": 3,
+	"name": "AFC West Division",
+	"team": "Football"
+}, {
+	"id": 8,
+	"name": "NFC East Division",
+	"team": "Football"
+}, {
+	"id": 5,
+	"name": "AFC North Division",
+	"team": "Football"
+}, {
+	"id": 20,
+	"name": "AFC West Division",
+	"team": "Football"
+}, {
+	"id": 11,
+	"name": "NFC West Division",
+	"team": "Football"
+}, {
+	"id": 28,
+	"name": "NFC West Division",
+	"team": "Football"
+}, {
+	"id": 18,
+	"name": "NFC South Division",
+	"team": "Football"
+}, {
+	"id": 23,
+	"name": "AFC South Division",
+	"team": "Football"
+}, {
+	"id": 6,
+	"name": "NFC East Division",
+	"team": "Football"
+}, {
+	"id": null,
+	"name": "Pacific Division",
+	"team": "Hockey"
+}, {
+	"id": null,
+	"name": "Pacific Division",
+	"team": "Hockey"
+}, {
+	"id": null,
+	"name": "Atlantic Division",
+	"team": "Hockey"
+}, {
+	"id": null,
+	"name": "Atlantic Division",
+	"team": "Hockey"
+}, {
+	"id": null,
+	"name": "Pacific Division",
+	"team": "Hockey"
+}, {
+	"id": null,
+	"name": "Metropolitan Division",
+	"team": "Hockey"
+}, {
+	"id": null,
+	"name": "Central Division",
+	"team": "Hockey"
+}, {
+	"id": null,
+	"name": "Central Division",
+	"team": "Hockey"
+}, {
+	"id": null,
+	"name": "Metropolitan Division",
+	"team": "Hockey"
+}, {
+	"id": null,
+	"name": "Central Division",
+	"team": "Hockey"
+}, {
+	"id": null,
+	"name": "Atlantic Division",
+	"team": "Hockey"
+}, {
+	"id": null,
+	"name": "Pacific Division",
+	"team": "Hockey"
+}, {
+	"id": null,
+	"name": "Atlantic Division",
+	"team": "Hockey"
+}, {
+	"id": null,
+	"name": "Pacific Division",
+	"team": "Hockey"
+}, {
+	"id": null,
+	"name": "Central Division",
+	"team": "Hockey"
+}, {
+	"id": null,
+	"name": "Atlantic Division",
+	"team": "Hockey"
+}, {
+	"id": null,
+	"name": "Central Division",
+	"team": "Hockey"
+}, {
+	"id": null,
+	"name": "Metropolitan Division",
+	"team": "Hockey"
+}, {
+	"id": null,
+	"name": "Metropolitan Division",
+	"team": "Hockey"
+}, {
+	"id": null,
+	"name": "Metropolitan Division",
+	"team": "Hockey"
+}, {
+	"id": null,
+	"name": "Atlantic Division",
+	"team": "Hockey"
+}, {
+	"id": null,
+	"name": "Metropolitan Division",
+	"team": "Hockey"
+}, {
+	"id": null,
+	"name": "Metropolitan Division",
+	"team": "Hockey"
+}, {
+	"id": null,
+	"name": "Pacific Division",
+	"team": "Hockey"
+}, {
+	"id": null,
+	"name": "Central Division",
+	"team": "Hockey"
+}, {
+	"id": null,
+	"name": "Atlantic Division",
+	"team": "Hockey"
+}, {
+	"id": null,
+	"name": "Atlantic Division",
+	"team": "Hockey"
+}, {
+	"id": null,
+	"name": "Pacific Division",
+	"team": "Hockey"
+}, {
+	"id": null,
+	"name": "Metropolitan Division",
+	"team": "Hockey"
+}, {
+	"id": null,
+	"name": "Central Division",
+	"team": "Hockey"
+}]
+})

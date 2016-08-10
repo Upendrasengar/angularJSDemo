@@ -1,0 +1,42 @@
+<div>
+    View 1 Loaded
+    <div ng-if="stateParams.userName">
+      <p><h5> 4) Create an array of 50 items, each item having 3 properties. Create an option to sort the array by one or two properties. Make the array be filterable by a search input.
+        Additional parameter passed in params --> userName : {{stateParams.userName}}   </h5></p>    
+        <h2>Search</h2>
+        <div class="form-group">
+            <label for="usr">Search criteria</label>
+            <input type="input" ng-model="searchCriteria" class="form-control">
+        </div>
+        <h2>Sorting Criteria</h2>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" value="id" ng-model="checkboxModel" ng-change="updateOrder('id')">Id</label>
+        </div>
+        <div class="checkbox">
+            <label>
+            <input type="checkbox" value="name" ng-model="checkboxModel1" ng-change="updateOrder('name')">name</label>
+        </div>
+        <div>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <th>id</th>
+                        <th>name</th>
+                        <th>team name</th>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="value in data | filter:searchCriteria | orderBy:orderArray">
+                            <td>{{value.id}}</td>
+                            <td>{{value.name}}</td>
+                            <td>{{value.team}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div ng-hide="stateParams.userName">
+        <h3>Provide optional parameter in URL to get hide content</h3>
+    </div>
+</div>

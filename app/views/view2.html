@@ -1,0 +1,16 @@
+<div>
+    View 2 Loaded
+   <h4> <br> Example - How to pass input field data from one page controller to another;</h4>
+    <p><h5>2) Provide example on how to pass data between page controllers. Have an input field in one page of which contents is displayed in the second page. Please do not use $rootScope.</h5></p>
+    <h5>There are other methods also that can be used to pass data from one page to another page controler but i've created a service to achieve the same.</h5>
+    <form role="form">
+        <div class="form-group">
+            <label for="usr">Name:</label>
+            <input type="text" ng-model="inputData" class="form-control" id="usr">
+        </div>
+        <div class="form-group">
+            <button type="button" class="btn btn-default" ng-click="changeState()">Send data</button>
+        </div>
+    </form>
+</div>
+</div>

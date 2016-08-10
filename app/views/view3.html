@@ -1,0 +1,47 @@
+<div>
+    <b>View 3 -->> data from page 2 {{data}}</b>
+    <br>
+    <p><h5>5) Have a directive that is dependent of ngModel, that restricts the input to numbers only and auto formats the input as a phone number like (541) 754-3010. The field must change its format as user types. Do not create a $filter for this directive as that does not mean the directive itself is doing the format.</h5></p>
+    <div class="form-group">
+        <label for="usr">Phone no:</label>
+        <input type="text" ng-model="inputData" class="form-control"  ng-model="phoneNo" custom-number-dir input-type="phone">
+    </div>
+    <p><h5>6) Have a directive that is dependent of ngModel, that restricts the input to numbers only and auto formats the input into currency, ex: $1,234. The field must change its format as user types. Do not create a $filter for this directive as that does not mean the directive itself is doing the format.</h5></p>
+    <div class="form-group">
+        <label for="usr">Currency:</label>
+        <input type="text" ng-model="currency" class="form-control"  ng-model="phoneNo" custom-number-dir input-type="currency">
+    </div>
+    <p><h5>7) Create 3 number inputs that sum up into an additional field. Editing each of the 3 inputs will always update the sum value. The fourth field can also be editable, and whenever user changes this one its value must be spread across the other 3 fields.</h5></p>
+    <div class="form-group">
+        <label for="usr">Number 1:</label>
+        <input type="number" ng-model="numberVal[0]" class="form-control"  >
+    </div>
+    <div class="form-group">
+        <label for="usr">Number 2:</label>
+        <input type="number" ng-model="numberVal[1]" class="form-control"  >
+    </div>
+    <div class="form-group">
+        <label for="usr">Number 3:</label>
+        <input type="number" ng-model="numberVal[2]" class="form-control"   >
+    </div>
+    <div class="form-group">
+        <label for="usr">Sum:</label>
+        <input type="number" ng-model="addition" class="form-control" ng-change="updateFields()">
+    </div>
+     <p><h5>
+     	8) Create 3 inputs each with maximum char. length 5. When entering the 5th char. in an input the cursor should jump to the next input right after the char. has been inserted. When deleting the 1st char. of an input the cursor should jump at the end of previous input right after that char. has been deleted.
+     </h5></p>
+      <div class="form-group">
+        <label for="usr">Text 1:</label>
+        <input type="text" ng-model="textvalue[0]" class="form-control" maxlength="5" input-focus-dir>
+    </div>
+    <div class="form-group">
+        <label for="usr">Text 2:</label>
+        <input type="text" ng-model="textvalue[1]" class="form-control" maxlength="5" input-focus-dir>
+    </div>
+    <div class="form-group">
+        <label for="usr">Text 3:</label>
+        <input type="text" ng-model="textvalue[2]" class="form-control" maxlength="5" input-focus-dir>
+    </div>
+
+</div>
